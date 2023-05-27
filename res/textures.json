@@ -1,3 +1,7 @@
 {
-    "clicker": "res/textures/clicker.png"
+    "clicker": {
+        "file": "res/textures/clicker.png",
+        "width": 128,
+        "height": 128
+    }
 }

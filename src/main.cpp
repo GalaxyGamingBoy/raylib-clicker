@@ -70,7 +70,13 @@ void update() {
 void draw() {
     BeginDrawing();
     ClearBackground(RAYWHITE);
+
+    // Toggle FPS Counter
+    if (settingsJSON["showFPS"])
+        pWindow->DrawFPS();
+
     currentScene->Render();
+
     EndDrawing();
 }
 

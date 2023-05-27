@@ -2,6 +2,9 @@
 
 This is a Clicker Game that I am currently working on using Raylib and **_pure_** C++!
 
+Also checkout the **changelog** [here](/CHANGELOG.MD)
+You can find the **documentation** [here](/docs/TOC.md)
+
 ## Build Instructions
 
 A build script has been make for Windows, Linux[\*](#notes--other) and Gitpod[\*](#notes--other).
@@ -32,5 +35,11 @@ A build script has been make for Windows, Linux[\*](#notes--other) and Gitpod[\*
 -   `Automatically Installed`
 
 ## Notes / Other
+
+**Thanks** to:
+
+-   [Raysan5](https://github.com/raysan5) for creating [**raylib**](https://github.com/raysan5/raylib)!
+-   [RobLoach](https://github.com/RobLoach) for creating the [**raylib-cpp**](https://github.com/RobLoach/raylib-cpp) bindings!
+-   [Nlohmann](https://github.com/nlohmann/) for creating the [**JSON C++ library**](https://github.com/nlohmann/json)!
 
 \*Coming Soon!
