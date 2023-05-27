@@ -1,12 +1,11 @@
-mkdir -Force build/res
-cp -Force res/* build/res
-cp -Force res/sounds/* build/res/sounds
-cp -Force res/textures/* build/res/textures
-rm ./build/raylib-clicker.exe
+mkdir -Force build/
+Copy-Item -Path res/ -Destination build/res -Force -Recurse
+rm -Force ./build/raylib-clicker.exe
 
 if ((Get-Content -Path CMakeLists.md5) -eq (Get-FileHash -Path CMakeLists.txt -Algorithm MD5).hash) {
     echo 'CMakeLists.txt has not changed. Ignoring Rebuild...'
 } else {
+    echo 'CMakeLists.txt has changed. Rebuilding...'
     cmake -G "MinGW Makefiles" -B build .
 }
 
