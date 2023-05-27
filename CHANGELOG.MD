@@ -11,3 +11,6 @@
 | 26/05/2023 | Basic Documentation           | `core` `docs`                 | -                                 |
 | 27/05/2023 | Add Image2Rect & Texture2Rect | `core`                        | -                                 |
 | 27/05/2023 | Button Increments Points      | `clicker` `points`            | Refered to as `Score` in the game |
+| 27/05/2023 | Add Linux Support             | `core` `build` `linux`        | Debian based install script added |
+| 27/05/2023 | Add Gitpod Support            | `core` `gitpod` `linux`       | -                                 |
+| 27/05/2023 | Add Clicker Clicked Texture   | `clicker` `textures`          | -                                 |
