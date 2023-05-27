@@ -11,8 +11,12 @@ void GameScene::Loop() {
     Clicker* clicker = dynamic_cast<Clicker*>(GetSceneObject("clicker"));
     Score* score = dynamic_cast<Score*>(GetSceneObject("score"));
 
+    // Reset Textures
+    clicker->SetTexture("default");
+
     // Check if button clicked
     if (clicker->GetRect()->CheckCollision(raylib::Mouse::GetPosition()) && raylib::Mouse::IsButtonPressed(MOUSE_LEFT_BUTTON)) {
+        clicker->SetTexture("clicked");
         score->IncrementScore();
     }
 };

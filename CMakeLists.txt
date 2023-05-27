@@ -15,12 +15,13 @@ set(SOURCES
     src/scenes/GameScene.cpp
     src/utils/Utils.h
     src/objects/Score.h
-    src/objects/Score.cpp)
+    src/objects/Score.cpp
+    src/utils/Timer.h)
 
 set(FETCHCONTENT_QUIET FALSE)
 
 # IF TRUE SET RAYLIB_DOWNLOADED_PATH & RAYLIB_CPP_DOWNLOADED_PATH
-set(RAYLIB_DOWNLOADED FALSE)
+set(RAYLIB_DOWNLOADED TRUE)
 set(RAYLIB_DOWNLOADED_PATH C:/tools/raylib-files/raylib)
 set(RAYLIB_DOWNLOADED_CPP_PATH C:/tools/raylib-files/raylib_cpp)
 
