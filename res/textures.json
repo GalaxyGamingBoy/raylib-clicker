@@ -8,5 +8,15 @@
         "file": "res/textures/clicker/clicked.png",
         "width": 128,
         "height": 128
+    },
+    "hand": {
+        "file": "res/textures/hand/hand.png",
+        "width": 64,
+        "height": 96
+    },
+    "handExtended": {
+        "file": "res/textures/hand/handExtended.png",
+        "width": 64,
+        "height": 96
     }
 }

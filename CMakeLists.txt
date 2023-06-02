@@ -16,7 +16,8 @@ set(SOURCES
     src/utils/Utils.h
     src/objects/Score.h
     src/objects/Score.cpp
-    src/utils/Timer.h)
+    src/objects/Hand.h
+    src/objects/Hand.cpp)
 
 set(FETCHCONTENT_QUIET FALSE)
 

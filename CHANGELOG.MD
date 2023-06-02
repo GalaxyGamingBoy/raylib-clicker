@@ -14,3 +14,4 @@
 | 27/05/2023 | Add Linux Support             | `core` `build` `linux`        | Debian based install script added |
 | 27/05/2023 | Add Gitpod Support            | `core` `gitpod` `linux`       | -                                 |
 | 27/05/2023 | Add Clicker Clicked Texture   | `clicker` `textures`          | -                                 |
+| 2/06/2023  | Add Auto Clicker              | `clicker` `hand` `auto`       | Internal Name: `hand`             |
